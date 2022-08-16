@@ -39,6 +39,22 @@ body {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: light italic;
+    margin: 0;
+    padding: 200px 200px 200px 200px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.quoteAuthor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .logo {
@@ -83,3 +99,41 @@ body {
     font-size: 16px;
     font-weight: bold;
 }
+
+.middle-container {
+    background-color: white;
+    margin-top: 20px;
+    padding: 1px 0 20px 0;
+}
+
+.infoBoxes {
+    display: flex;
+}
+
+.infoBoxes div {
+    flex: 1;
+}
+
+.infoBox {
+    height: 180px;
+    width: 180px;
+    border: solid #3882f6;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.random-info {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infoText {
+    text-align: center;
+    width: 180px;
+    margin: 4px auto auto auto;
+}
+
