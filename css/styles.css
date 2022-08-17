@@ -4,10 +4,6 @@ body {
     background-color: #f9faf8;
 }
 
-.div {
-    display: block;
-}
-
 .navbar {
     background-color: #1f2937;
     color: #e5e7eb;
@@ -145,16 +141,13 @@ body {
     background-color: #3882f6;
     display: flex;
     color: #f9faf8;
+    align-items: center;
     margin: 100px 60px 100px 60px;
 }
 
-.bottom-container .footer-text {
-    flex-grow: 1;
+.bottom-container div {
+    flex: 1;
     margin: 30px 100px;
-}
-
-.bottom-container .sign-button-div {
-    flex-grow: 3;
 }
 
 .footer1 {
@@ -172,9 +165,10 @@ body {
     color: #f9faf8;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 60%;
-    margin-top: 7%;
+}
 
+.sign-button-div {
+    text-align: center;
 }
 
 .footer {
